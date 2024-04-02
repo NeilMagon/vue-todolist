@@ -11,3 +11,9 @@ input{
     width: 15.625rem;
     height: 2.4375rem;
 }
+.ms-bg-grey{
+    background-color: lightgrey;
+}
+p, i{
+    font-size: 1.25rem;
+}
