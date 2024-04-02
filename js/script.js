@@ -22,6 +22,7 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
+            newTask: "",
             tasks: [
                 {
                     text: `Fai i compiti`,
@@ -35,7 +36,15 @@ createApp({
         }
     },
     methods: {
-     
+     addNewTask(){
+        if (this.newTask.trim() !== ``) {
+            this.tasks.push({
+                text: this.newTask,
+                done: false
+            });
+            this.newTask = "";
+        }
+     }
     },
 })
 .mount(`#app`);

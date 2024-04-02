@@ -14,8 +14,9 @@ input{
 .ms-bg-grey{
     background-color: lightgrey;
 }
-p, i{
-    font-size: 1.25rem;
+ul li{
+    list-style: none;
+    font-size: 20px;
 }
 .line-done{
     text-decoration: line-through;
