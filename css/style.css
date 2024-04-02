@@ -17,3 +17,6 @@ input{
 p, i{
     font-size: 1.25rem;
 }
+.line-done{
+    text-decoration: line-through;
+}
