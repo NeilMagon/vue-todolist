@@ -23,7 +23,7 @@
         <main class="container py-4 ms-bg-grey rounded px-5">
             <ul v-for="task, index in tasks" class="d-flex justify-content-between align-center border-bottom">
                 <li>{{ task.text}}</li>
-                <button class="btn"><i class="fa-solid fa-xmark"></i></button>
+                <button @click="removeTask(index)" class="btn"><i class="fa-solid fa-xmark"></i></button>
             </ul>
         </main>
     </div>
