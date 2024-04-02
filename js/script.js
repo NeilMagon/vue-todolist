@@ -17,16 +17,16 @@
 // 2- cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente 
 //     (se done era uguale a false, impostare true e viceversa)
 
-const { createApp } = Vue;
+// const { createApp } = Vue;
 
-createApp({
-    data() {
-        return {
+// createApp({
+//     data() {
+//         return {
             
-        }
-    },
-    methods: {
+//         }
+//     },
+//     methods: {
         
-    },
-})
-.mount(`#app`);
+//     },
+// })
+// .mount(`#app`);
